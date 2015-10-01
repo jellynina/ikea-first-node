@@ -1,0 +1,24 @@
+{
+  "name": "ikea-first-node",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jellynina/ikea-first-node",
+  "authors": [
+    "jellynina <jellynina@gmail.com>"
+  ],
+  "description": "My first node js package, run treehouse code here",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "owl.carousel": "owl-carousel2#~2.0.0-beta.3"
+  }
+}

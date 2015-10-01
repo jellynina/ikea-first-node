@@ -1,0 +1,24 @@
+{
+  "name": "ikea-first-node",
+  "version": "0.0.0",
+  "description": "My very first node package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jellynina/ikea-first-node.git"
+  },
+  "keywords": [
+    "nodeJS",
+    "bower",
+    "front-end"
+  ],
+  "author": "Nina Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jellynina/ikea-first-node/issues"
+  },
+  "homepage": "https://github.com/jellynina/ikea-first-node#readme"
+}
