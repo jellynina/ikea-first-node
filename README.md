@@ -3,7 +3,7 @@ My very first node package
 
 列一下常用的框架/工具
 
-* 使用[fire.app]()
+* 使用~~fire.app~~ *說再見* 
 
 ### plugs
 
@@ -29,7 +29,33 @@ $ bower install {package}
 ```
 
 
-> 然後我就不知道該怎麼辦了
+# SASS auto running with grunt
+
+> 2015-10-15, fire.app 不再維護只好自立自強
+
+##1. 專案安裝grunt
+```
+$ npm install grunt --save-dev
+```
+
+##2. 建立`Gruntfile.js`
+
+```js
+module.exports = function(grunt) {
+// Project configuration.
+grunt.initConfig({
+   pkg: grunt.file.readJSON('package.json'),
+   // Tasks to go below here
+});
+// Load plugins here
+// Default task(s).
+grunt.registerTask('default', []);
+};
+```
+
+##3. 安裝grunt compass
+[grunt-contrib-compass](https://www.npmjs.com/package/grunt-contrib-compass)
+
 
 # NodeJS Basic Note
 a [Treehouse](http://teamtreehouse.com/library/nodejs-basics)'s course.
@@ -64,4 +90,35 @@ For example:
 node forecast.js 90210
 ```
 [Forecast.io](http://forecast.io/#/f/25.0392,121.5250) has an API you could use.
+
+
+
+
+# Treehouse Note: npm Basic
+
+## What is npm?
+
+`npm`: A JavaScript Package Manager in NodeJS.
+
+##Choosing a Package
+
+> There are a number of indicators that you can use to determine which package to use.
+
+1. Popularity on npm – the number of downloads
+2. Release Date – the more recent the better
+3. Number of Releases – the more frequent the better
+4. Passing Tests - if there's tests passing
+5. Number of Open Issues – the less the better
+6. Popularity on GitHub – The more Stars, Forks and Watches the better
+7. Number of Contributors on GitHub – more eyes on the code the better
+
+
+
+
+
+
+
+
+
+
 
