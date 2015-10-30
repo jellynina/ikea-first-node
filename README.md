@@ -114,10 +114,29 @@ node forecast.js 90210
 
 
 
+## Dependencies
+
+> 這是一個我有點難理解的謎 
 
 
+* Installing an npm Package as a dependency
 
+```
+npm install colors --save
+```
+* Installing an npm Package as a development dependency
 
+```
+npm install mocha --save-dev
+```
+
+這裡`mocha`會被視為跑專案需要的環境條件，而非產出的一部份。
+
+* Running npm in a production environment
+
+```
+NODE_ENV=production npm install
+```
 
 
 
